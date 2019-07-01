@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HOME PAGE</title>
+    <link rel="stylesheet" href="{% static 'css/mystyle.css' %}">
+  </head>
+  <body>
+
+    <h1>TA STRONA JEST WYRENDEROWANA PRZY UZYCIU TEMPLATE</h1>
+    <h2>Hello {{ user_name1 }} ! </h2>
+    <h2> {{ user_name2 }} is not here.</h2>
+
+    <img src="{% static 'images/samoyed.jfif' %}" alt="Nie ma obrazka :(">
+  </body>
+</html>

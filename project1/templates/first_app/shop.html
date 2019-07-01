@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>SHOP</title>
+  </head>
+  <body>
+    <h1>List of shop items below:</h1>
+    <ol>
+      {% for item in items %}
+      <li>Item Info:</li>
+      <ul>
+        <li>{{ item.item_name }}</li>
+        <li>{{ item.item_desc }}</li>
+        <li>{{ item.email }}</li>
+      </ul>
+      {% endfor %}
+    </ol>
+
+  </body>
+</html>

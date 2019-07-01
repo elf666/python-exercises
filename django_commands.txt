@@ -1,0 +1,10 @@
+django-admin startproject nazwa_projektu - tworzy nowy projekt
+
+django-admin startapp nazwa_aplikacji - tworzy nowa aplikacje
+
+python manage.py runserver - uruchamia serwer
+
+python manage.py makemigrations - uruchamia migracje (razem z komend¹ poni¿ej)
+python manage.py migrate
+
+python manage.py createsuperuser - tworzy superusera do panelu /admin
